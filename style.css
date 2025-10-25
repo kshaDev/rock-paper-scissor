@@ -65,3 +65,28 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+@media (max-width: 600px) {
+    .choices {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .choice {
+        height: 120px;
+        width: 120px;
+    }
+
+    img {
+        height: 110px;
+        width: 110px;
+    }
+
+    #msg {
+        font-size: 1.4rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 2.5rem;
+    }
+}
