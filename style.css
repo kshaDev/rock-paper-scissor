@@ -69,24 +69,37 @@ img{
 
 @media (max-width: 600px) {
     .choices {
-        gap: 1rem;   
+        flex-wrap: wrap;        
+        gap: 1rem;
+        justify-content: center;
+        padding: 0 1rem;
     }
 
     .choice {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
 
     img {
-        height: 90px;
-        width: 90px;
+        height: 70px;
+        width: 70px;
     }
 
-    #msg {
-        font-size: 1.2rem;
+    .score-board {
+        gap: 2rem;
+        font-size: 1.5rem;
     }
 
     #user-score, #comp-score {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    #msg {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    body {
+        overflow-x: hidden;    
     }
 }
